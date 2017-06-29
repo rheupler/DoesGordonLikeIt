@@ -21,16 +21,16 @@ module.exports = function(grunt) {
     },
 
     babel: {
-  		options: {
-  			sourceMap: true,
-  			presets: ['es2015']
-  		},
-  		dist: {
-  			files: {
-  				'js/main.min.js': 'js/main.js'
-  			}
-  		}
-  	},
+      options: {
+        sourceMap: true,
+          presets: ['es2015']
+        },
+        dist: {
+          files: {
+        'js/main.min.js': 'js/main.js'
+        }
+      }
+    },
 
     uglify: {
       javascript: {
@@ -81,10 +81,6 @@ module.exports = function(grunt) {
         path: 'http://localhost:9001'
       }
     },
-
-
-
-
 
     // Watches files and folders for us
     watch: {

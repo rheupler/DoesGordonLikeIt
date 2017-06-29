@@ -9,9 +9,12 @@
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "babel-cli": "^6.6.5",
+    "browserify": "^14.4.0",
     "chai": "^4.0.2",
+    "expect": "*",
     "grunt": "^0.4.5",
     "grunt-babel": "^6.0.0",
+    "grunt-cli": "^*",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "~0.10.0",
@@ -25,7 +28,7 @@
     "matchdep": "*",
     "mocha": "^3.4.2",
     "should": ">= 0.0.1",
-    "expect": "*"
+    "uniq": "^1.0.1"
   },
   "dependencies": {
     "font-awesome": "^4.6.3",

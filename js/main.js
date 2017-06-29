@@ -1,12 +1,12 @@
 const url = "https://www.googleapis.com/youtube/v3/search";
-const API_KEY = "AIzaSyBZAOICmYahmk5fgmWE5MLXju6jZQpYabA";
+const API_KEY = config.API_KEY;
 
 /** Search form handling **/
 document.addEventListener('DOMContentLoaded', () => {
   $('.search-form').submit(function (e) {
     e.preventDefault();
     let formValue = $('.query').val();
-    if ( formValue === "" ) { return $("h1").html("Cannot be blank") };
+    if ( formValue === "" ) { return $("h1").html("Please enter a value ") };
     getRequest(formValue);
   });
 
