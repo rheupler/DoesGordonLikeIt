@@ -1,0 +1,128 @@
+//**
+// Homepage
+//**
+
+/****************************
+Page Containers
+****************************/
+.video-content {
+  display: flex;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.results-container {
+  cursor: pointer;
+}
+
+/****************************
+Error Handling
+****************************/
+
+.error-log {
+  background-color: $danger-color;
+  text-align: center;
+  max-width: 25em;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/****************************
+Index Content
+****************************/
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+/****************************
+Embedded Video
+****************************/
+
+.video-embed {
+  display: flex;
+  justify-content: center;
+}
+
+/****************************
+Return List
+****************************/
+
+ul li {
+  list-style-type: none;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px black;
+
+  @media screen and (max-width: $big-break) {
+    font-size: 1rem;
+  }
+}
+
+.hoverZoomLink, img {
+  width: 20em;
+  margin: 0 auto;
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.results {
+  display: flex;
+  display: -webkit-flex; /* NEW */
+  flex-flow: wrap;
+  -webkit-flex-wrap: wrap; /* NEW */
+  flex-direction: column-reverse;
+  padding-left: 0;
+}
+
+.card {
+  flex: 3;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  padding: 1.2em;
+  margin: .5em;
+  box-shadow: 2px 0px 4px 1px black;
+  background-color: $grey;
+  color: white;
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  ul li {
+    list-style: none;
+    text-shadow: 1px 1px black;
+  }
+
+  p {
+    color: white;
+  }
+}
+
+.video-description {
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+}
+
+
+// Responsive styles if needed
+// @include responsive($big-break) {
+// }
+// @include responsive($small-break) {
+// }
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }
