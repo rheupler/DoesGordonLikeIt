@@ -6,8 +6,8 @@
 1. Clone repo locally
 2. `cd` into directory
 3. `npm install` to install dependencies
-4. Obtain an API key for YouTube
-5. Set your key equal to the `API_KEY` variable in main.js
+4. Obtain an API key for YouTube's Developer site
+5. Replace `config.API_KEY` in `main.js` with your API key
 6. `grunt` to run locally
 
 ## Usage
