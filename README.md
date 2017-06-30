@@ -8,8 +8,7 @@
 3. Make sure you have Node installed
 4. `npm install` to install dependencies.
 5. Obtain an API key from YouTube's Developer site
-6. Replace `config.API_KEY` in `main.js` with your API key
-7. `grunt` to run locally
+6. `grunt` to run locally
 
 ## Usage
 1. Search a type of food
@@ -21,7 +20,7 @@
 
 ## API Usage
 
-I'm using Youtube v3 API to retrieve YouTube video information.
+I'm using a public Youtube v3 API to retrieve YouTube video information.
 
 ## Legal
 
