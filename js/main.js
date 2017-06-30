@@ -1,5 +1,5 @@
 const url = "https://www.googleapis.com/youtube/v3/search";
-const API_KEY = config.API_KEY;
+const API_KEY = "AIzaSyBZAOICmYahmk5fgmWE5MLXju6jZQpYabA";
 
 /** Search form handling **/
 document.addEventListener('DOMContentLoaded', () => {
