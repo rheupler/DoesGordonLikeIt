@@ -15,11 +15,12 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'css/main.css': 'css/scss/main.scss'
+          'dist/main.css': 'css/scss/main.scss'
         }
       }
     },
 
+  // Convert ES6 for older browsers
     babel: {
       options: {
         sourceMap: true,
@@ -27,15 +28,16 @@ module.exports = function(grunt) {
         },
         dist: {
           files: {
-        'js/main.min.js': 'js/main.js'
+        'dist/main.min.js': 'js/main.js'
         }
       }
     },
 
+    // Minify JavaScript
     uglify: {
       javascript: {
         files: {
-          'js/main.min.js': ['js/main.min.js']
+          'dist/main.min.js': ['dist/main.min.js']
         }
       }
     },
@@ -61,7 +63,7 @@ module.exports = function(grunt) {
         ]
       },
       dist: {
-        src: 'css/*.css'
+        src: 'dist/*.css'
       }
     },
 
