@@ -5,7 +5,7 @@
 ## Installation
 1. Clone repo locally
 2. `cd` into directory
-3. Make sure you have Node installed
+3. Make sure you have Node installed and Grunt installed globally
 4. `npm install` to install dependencies.
 5. Obtain an API key from YouTube's Developer site
 6. `grunt` to run locally
