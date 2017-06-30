@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    .fail(function(jqxhr, textStatus) {
       const err = `Request Failed ${jqxhr.status} ${textStatus}`
+      $(".error-log").html(err);
     });
  }
 

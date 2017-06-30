@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         },
         dist: {
           files: {
-        'dist/main.min.js': 'js/main.js'
+            'dist/main.min.js': 'js/main.js'
         }
       }
     },
